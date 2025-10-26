@@ -1,3 +1,6 @@
-# Node.js basics
+### Если будут вопросы по запуску скриптов - смело можно писать в
 
-## !!! Please don't submit Pull Requests to this repository !!!
+# Tg: @KirylZuyeu
+# Discord: KirylZuyeu#1555
+
+### Надеюсь это не станет ошибкой - так как требований к созданию ветки разработки не было - по этому делал все в Main
