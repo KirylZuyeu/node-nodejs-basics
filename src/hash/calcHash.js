@@ -12,14 +12,11 @@ const calculateHash = async () => {
   const readStream = fs.createReadStream(fileToRead);
   const hash = crypto.createHash('sha256');
 
-  return new Promise((resolve, reject) => {
-    readStream.pipe(hash);
-    readStream.on('end', () => {
-      const hexHash = hash.digest('hex');
-      console.log(hexHash);
-      resolve();
-    });
-  })
+  readStream.pipe(hash);
+  readStream.on('end', () => {
+    const hexHash = hash.digest('hex');
+    console.log(hexHash);
+  });
 };
 
 await calculateHash();
